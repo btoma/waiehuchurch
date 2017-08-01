@@ -1,0 +1,22 @@
+
+//Modules
+@import "modules/mixins";
+@import "modules/variables";
+
+
+//Components
+@import "components/typography";
+
+
+//Partials
+@import "partials/header";
+@import "partials/footer";
+@import "partials/slider";
+@import "partials/blogs";
+
+
+//Pages
+@import "pages/home";
+@import "pages/sub-page";
+@import "pages/contact-us";
+@import "pages/profile-images";

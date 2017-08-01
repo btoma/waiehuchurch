@@ -1,0 +1,18 @@
+/*
+Theme Name: Enfold Child
+template: enfold
+Description:
+Version: 4.1.2
+Author: Biven Toma
+Author URI: http://www.kriesi.at
+License: Themeforest Split Licence
+License URI: -
+Theme URI: www.kriesi.at/themes/enfold/
+*/
+body p, body li {
+  font-size: 18px; }
+
+body #main p, body #main li {
+  font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */

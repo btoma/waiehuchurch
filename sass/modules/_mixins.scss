@@ -1,0 +1,26 @@
+
+@mixin Red-button{
+    background-color: $red-color;
+    color: $white-color!important;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border-color: $red-color!important;
+    &:hover {
+        span{
+            background-color: $red-color;
+        }
+    }
+}
+
+@mixin Sidebar-button{
+    background: $light-blue-color !important;
+    color: $white-color !important;
+    border: 1px solid $light-blue-color!important;
+    font-size: 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    @media all and(max-width: 767px) {
+        font-size: 20px!important;
+    }
+}
