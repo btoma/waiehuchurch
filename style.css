@@ -12,7 +12,55 @@ Theme URI: www.kriesi.at/themes/enfold/
 body p, body li {
   font-size: 18px; }
 
+body strong {
+  color: black; }
+
 body #main p, body #main li {
   font-size: 18px; }
+
+body #main strong {
+  color: black; }
+
+body#top #advanced_menu_hide, body#top #advanced_menu_toggle {
+  display: none !important; }
+
+@media all and (max-width: 1100px) {
+  body#top.home .avia-fullwidth-slider .slideshow_caption {
+    width: 65%; } }
+
+body#top.home .section-one h4 {
+  line-height: 40px; }
+
+body#top.home #after_section_2 .widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  body#top.home #after_section_2 .widget .avia-button {
+    margin-top: 20px;
+    background-color: #425719;
+    width: 300px;
+    color: white;
+    font-size: 16px; }
+
+body#top.page_name_contact .section-left p {
+  line-height: 25px; }
+
+body#top.page_name_about .av_one_third h3 {
+  font-size: 22px; }
+
+body#top.page_name_resources .avia-button-wrap {
+  margin-top: 30px; }
+  body#top.page_name_resources .avia-button-wrap .avia-button {
+    min-width: 250px; }
 
 /*# sourceMappingURL=style.css.map */

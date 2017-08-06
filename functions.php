@@ -55,7 +55,7 @@ function bt_page_class(){
     if(is_front_page()){
         $page = 'home';
     }elseif (is_page()){
-        $page = "page_name". $wp_query->query_vars["pagename"];
+        $page = "page_name_". $wp_query->query_vars["pagename"];
     }
     return $page;
 }
@@ -108,18 +108,3 @@ function custom_scripts(){
 add_action('wp_enqueue_scripts','custom_scripts');
 
 /*-------------------------------------------------------------------*/
-
-add_filter('avf_logo','av_change_logo');
-/**
- * include logo in sub-pages only.
- * @param $logo
- * @return string
- */
-function av_change_logo($logo)
-{
-
-    if(!is_front_page())  {
-        $logo = "http://gaddismatthews.com/wp-content/uploads/2017/04/white_logo.png";
-    }
-    return $logo;
-}

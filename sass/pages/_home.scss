@@ -1,0 +1,32 @@
+body#top.home{
+    .avia-fullwidth-slider {
+        .slideshow_caption {
+            @media all and(max-width: 1100px){
+                width: 65%;
+            }
+        }
+    }
+
+    .section-one{
+        h4{
+            line-height: 40px;
+        }
+    }
+    .section-two{
+    }
+    #after_section_2{
+        .widget {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .avia-button {
+                margin-top: 20px;
+                background-color: rgb(66, 87, 25);
+                width: 300px;
+                color: white;
+                font-size: 16px;
+            }
+        }
+    }
+}
